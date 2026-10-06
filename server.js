@@ -55,7 +55,6 @@ app.get('/api/menu/:id', (req, res) => {
   res.json(item);
 });
 
-// 4. Custom 404 Handler
 app.use((req, res) => {
   res.status(404).send('<h1>404 - Page Not Found</h1><p>The coffee you are looking for has spilled!</p>');
 });
