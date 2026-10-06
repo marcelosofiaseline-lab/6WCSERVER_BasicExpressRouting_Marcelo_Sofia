@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Brew & Bean Co. | Menu</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header>
+    <h1>☕ Brew & Bean Co.</h1>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/menu" class="active">Menu</a>
+      <a href="/about">About Us</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Our Coffee Menu</h2>
+    
+    <div class="filter-buttons">
+      <button onclick="fetchMenu()">All</button>
+      <button onclick="fetchMenu('hot')">Hot Drinks</button>
+      <button onclick="fetchMenu('cold')">Cold Drinks</button>
+    </div>
+
+    <div id="menu-container" class="menu-grid">
+      <p>Loading coffee options...</p>
+    </div>
+  </main>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>

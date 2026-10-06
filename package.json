@@ -1,0 +1,12 @@
+{
+  "name": "brew-and-bean-cafe",
+  "version": "1.0.0",
+  "description": "Express.js Coffee Shop Web Application with Routing and Static Assets",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
